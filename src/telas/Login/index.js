@@ -1,6 +1,5 @@
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { Text, View, TextInput, TouchableOpacity, StatusBar } from 'react-native';
-import { GlobalContext } from "../../contexts/GlobalContext";
 import { estilo } from './estilos';
 
 export default function Login({ navigation }) {
