@@ -1,8 +1,5 @@
 import { Text, View, FlatList, StatusBar, TouchableOpacity } from 'react-native';
-import { Produto } from '../../componentes/Produto';
 import { estilos } from './estilos';
-import { Feather } from 'react-native-vector-icons'
-import MaterialCommunityIcons from 'react-native-vector-icons/Feather';
 import { TemaContext } from '../../contexts/TemaContext';
 import { AutenticacaoContext } from '../../contexts/AutenticacaoContext';
 import { ProdutosContext } from "../../contexts/ProdutosContext";
